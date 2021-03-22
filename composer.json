@@ -1,11 +1,11 @@
 {
-    "name": "asantibanez/livewire-select",
+    "name": "aabosham/livewire-select",
     "description": "Livewire dropdown select component",
     "keywords": [
-        "asantibanez",
+        "aabosham",
         "livewire-select"
     ],
-    "homepage": "https://github.com/asantibanez/livewire-select",
+    "homepage": "https://github.com/aabosham/livewire-select",
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -26,12 +26,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Asantibanez\\LivewireSelect\\": "src"
+            "Aabosham\\LivewireSelect\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Asantibanez\\LivewireSelect\\Tests\\": "tests"
+            "Aabosham\\LivewireSelect\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -45,10 +45,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Asantibanez\\LivewireSelect\\LivewireSelectServiceProvider"
+                "Aabosham\\LivewireSelect\\LivewireSelectServiceProvider"
             ],
             "aliases": {
-                "LivewireSelect": "Asantibanez\\LivewireSelect\\LivewireSelectFacade"
+                "LivewireSelect": "Aabosham\\LivewireSelect\\LivewireSelectFacade"
             }
         }
     }
